@@ -1,1 +1,66 @@
-
+// đây là posts
+[{
+  "_id": {
+    "$oid": "67b44d97949d58990e911a4f"
+  },
+  "title": "Bài viết về MongoDB",
+  "content": "https://docs.google.com/document/d/1WBniFRAQIBEVbB2xq-6C9_jyAXgMraJZ/edit",
+  "authorName": "Dang",
+  "created_at": {
+    "$date": "2025-02-18T09:06:31.746Z"
+  },
+  "updated_at": {
+    "$date": "2025-02-18T09:06:31.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bec44d0a23bb10c89381c0"
+  },
+  "title": "Lương Cook",
+  "content": "https://docs.google.com/document/d/15M42AsnV7E9CJY3rsUMXStJVUFYh_4ZWut5P6s02pdI/edit?tab=t.jgp6ud4i5l99",
+  "authorName": "Đăng",
+  "created_at": {
+    "$date": "2025-02-26T07:35:41.393Z"
+  },
+  "updated_at": {
+    "$date": "2025-02-26T07:35:41.394Z"
+  },
+  "__v": 0
+}]
+// Đây là comments
+[{
+  "_id": {
+    "$oid": "67b44d97949d58990e911a53"
+  },
+  "post": {
+    "$oid": "67b44d97949d58990e911a4f"
+  },
+  "authorName": "Luong",
+  "content": "Bài viết rất hay, tôi đã học được nhiều điều mới.",
+  "created_at": {
+    "$date": "2025-02-18T09:06:31.766Z"
+  },
+  "updated_at": {
+    "$date": "2025-02-18T09:06:31.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b59c7b656fa45e7bd72c85"
+  },
+  "post": {
+    "$oid": "67b44d97949d58990e911a4f"
+  },
+  "authorName": "Minh",
+  "content": "Tôi cũng vậy",
+  "created_at": {
+    "$date": "2025-02-19T08:55:23.105Z"
+  },
+  "updated_at": {
+    "$date": "2025-02-19T08:55:23.105Z"
+  },
+  "__v": 0
+}]
